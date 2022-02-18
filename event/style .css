@@ -1,9 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
-/* *{
- font-size: 115% !important;
- 
-} */
+* {
+  font-weight: 500;
+}
 .fs-me{
   font-family: 'Gloria Hallelujah', cursive;
+  background-color: white;
+  }
+
+  .me {
+    margin-right: 25%;
+  }
+
+  .w-80 {
+    width: 94%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+  }
+
+  .wh {
+    width: 70%;
+    max-width: 70%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .img-div {
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .m {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .w-35 {
+    width: 35%;
+  }
+
+
+  .h {
+    height: 70%;
+  }
+
+  @media screen and (min-width:200px) and (max-width:299px) {
+    .wh {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+
+    .w-35 {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width:300px) and (max-width:350px) {
+    .wh {
+      width: 90%;
+      max-width: 100%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+
+    .w-35 {
+      width: 70%;
+    }
+  }
+
+  @media screen and (min-width:351px) and (max-width:419px) {
+
+    .w-35 {
+      width: 70%;
+    }
+  }
+
+  @media screen and (min-width:420px) and (max-width:474px) {
+    .wh {
+      width: 60%;
+      max-width: 60%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+
+    .w-35 {
+      width: 70%;
+    }
+  }
+
+  @media screen and (min-width:475px) and (max-width:520px) {
+    .wh {
+      width: 50%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+
+    .w-35 {
+      width: 45%;
+    }
+  }
+
+  @media screen and (min-width:520px) and (max-width:574px) {
+    .wh {
+      width: 45%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+
+    .w-35 {
+      width: 45%;
+    }
+
+  }
+
+  @media screen and (min-width:575px) and (max-width:767px) {
+
+
+    .w-35 {
+      width: 45%;
+    }
+
+  }
+
+  @media screen and (min-width:575px) and (max-width:992px) {
+    .wh {
+      width: 55%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+  }
+
+  @media screen and (min-width:1200px) {
+    .wh {
+      width: 60%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .me {
+      margin-right: 0%;
+      width: 50% !important;
+    }
 }
