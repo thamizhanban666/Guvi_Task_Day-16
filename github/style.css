@@ -16,7 +16,7 @@
   background-color: rgba(53, 53, 53, 255);
   width: 95%;
   /* height: 35em; */
-  padding-top: 160.52%;
+  padding-top: 150%;
   /* height */
   border-radius: 1.5em
 }
@@ -30,14 +30,14 @@
 
 .three-div {
   background-color: rgba(53, 53, 53, 255);
-  width: 100%;
-  padding-top: 16%;
-  border-radius: 1em
+  width: 84%;
+  padding-top: 55%;
+  border-radius: 0.75em
 }
 
 .last-div {
   background-color: rgba(53, 53, 53, 255);
   width: 100%;
-  padding-top: 25%;
+  padding-top: 23%;
   border-radius: 1em
 }
